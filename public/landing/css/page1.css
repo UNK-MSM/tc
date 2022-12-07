@@ -1,0 +1,226 @@
+
+
+/*-- global css --*/
+
+@font-face {
+    font-family:Kufi;
+    src: url(../fonts/DroidKufi-Regular.ttf);
+}
+
+
+
+a,a:link,a:visited,a:hover,a:focus,a:active{
+    color: #000;
+    text-decoration: none;
+}
+
+body{
+    font-family:Kufi;
+    
+}
+.fa-placholder {
+    font-family: "FontAwesome", Kufi ;
+}
+:-moz-placeholder { 
+    color: #ccc !important;
+    font-size: 12px;
+}
+::-moz-placeholder {
+    color: #ccc !important;
+    font-size: 12px;
+}
+:-ms-input-placeholder {
+    color: #ccc !important;
+    font-size: 12px;
+}
+
+/*-/- global css --*/
+/*-- navbar css --*/
+.navbar-default{
+    background-color: #0f0f0f;
+    border-color:#0f0f0f;
+}
+.navbar-default .navbar-nav>
+.active>a, .navbar-default .navbar-nav>
+.active>a:focus, .navbar-default .navbar-nav>
+.active>a:hover{
+    color: #ca992b;
+    background-color:black;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #b4a478;
+    font-family:Kufi;
+}
+.navbar{
+    border-radius: 0px;
+    min-height: 50px;
+    min-height: 80px;
+    margin-bottom: 0px; 
+}
+.navbar-nav{
+    line-height: 20px;
+    padding-top: 20px;
+    padding-right: 42px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #ca992b;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border: none;
+}
+.navbar-default .navbar-toggle{
+    margin-top: 20px;
+}
+/*-/- navbar css --*/
+/*-- register-form css --*/
+.register-form{
+    background: url(../image/bg-man.png)  no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: -84px;
+    padding-bottom: 100px;
+    
+}
+.register-form form{
+    background-color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.register-form .form-control{
+    padding: 2px 12px;
+}
+.register-form .title-form{
+    color: #686868;
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 31px;
+    font-weight: bold;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.register-form .form-group{
+    margin-top: 14px;
+    padding: 0 14px;
+}
+.register-form .btn-primary{
+    width: 271px;
+    border-radius: 50px;
+    margin-bottom: -16px;
+}
+.register-form .list-trendcast{
+    margin-top: 110px;
+}
+.register-form .list-trendcast .h1{
+    color: #dfae23;
+}
+.register-form .list-trendcast p{
+    padding-bottom: 20px;
+}
+.register-form .list-trendcast p,.register-form .list-trendcast span{
+    color: #fff;
+}
+.register-form .list-trendcast .fa{
+    border: 2px solid #4856a6;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 17px;
+}
+.register-form .list-item {
+    margin-top: 20px;
+}
+/*-/- register-form css --*/
+.about-trendcast{
+    background-color: #1f1f1f;
+    color: #fff;
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+.about-trendcast .fa{
+    color: #fff;
+}
+
+.space-right{
+    margin-right: 14px;
+}
+
+.help-block {
+    display: block;
+    color: red;
+    font-size: 80%;
+    text-align: left;
+    float: left;
+}   
+
+.error {
+    border-color: red !important;
+}
+
+/*-- footer css --*/
+footer{
+    background-color: #a97f1f;
+    color: #fff;
+    padding-bottom: 20px;
+}
+footer .menu-footer{
+    background-color: #ca992b;
+}
+footer .breadcrumb{
+   background-color: transparent; 
+    margin-bottom: 0px; 
+    list-style: none;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    
+}
+footer .breadcrumb a{
+    color: #fff;
+}
+footer .copyright{
+    background-color: #a97f1f;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+@media (min-width: 768px){
+.nopading{
+    padding-right: 0px ;
+}
+ 
+}
+@media (max-width: 768px){
+    
+   
+    .overlay {
+        background-color: rgba(46, 46, 49, 0.9);
+        width: 100%;
+        height: 100%;
+    }
+   
+    .register-form{
+        padding-bottom: 0px;
+    }
+}
+@media (max-width: 400px){
+  
+    .overlay {
+        background-color: rgba(46, 46, 49, 0.9);
+        width: 100%;
+        height: 100%;
+    }
+    .register-form{
+        padding-bottom: 0px;
+    }
+    
+}
+

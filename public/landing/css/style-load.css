@@ -1,0 +1,36 @@
+
+
+
+.item {
+  width: 419px;
+  height: 333px;
+  margin: 20px;
+  margin-top: 157px;
+  border-radius: 3px;
+   }
+
+
+.loader08 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  animation: loader08 1s ease infinite;
+  top: 65%;
+  margin: -46px auto 0; }
+
+@keyframes loader08 {
+  0%, 100% {
+    box-shadow: -13px 20px 0 red, 13px 20px 0 rgba(255, 26, 26, 0.2), 13px 46px 0 rgba(255, 26, 26, 0.2), -13px 46px 0 rgba(255, 26, 26, 0.2); }
+  25% {
+    box-shadow: -13px 20px 0 rgba(255, 26, 26, 0.2), 13px 20px 0 red, 13px 46px 0 rgba(255, 26, 26, 0.2), -13px 46px 0 rgba(255, 26, 26, 0.2); }
+  50% {
+    box-shadow: -13px 20px 0 rgba(255, 26, 26, 0.2), 13px 20px 0 rgba(255, 26, 26, 0.2), 13px 46px 0 red, -13px 46px 0 rgba(255, 26, 26, 0.2); }
+  75% {
+    box-shadow: -13px 20px 0 rgba(255, 26, 26, 0.2), 13px 20px 0 rgba(255, 26, 26, 0.2), 13px 46px 0 rgba(255, 26, 26, 0.2), -13px 46px 0 red; } }
+
+@media (max-width: 991px) {
+.loader08{
+        top: 0%;
+    }
+    
+}
